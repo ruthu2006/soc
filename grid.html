@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Grid</title>
+        <link rel="stylesheet"href="grid.css">
+        <style>
+            .temp{
+                border:2px solid blue;
+                width:30%;
+                /*margin-left:35%;*/
+                margin-top:5%;
+                padding:10px;
+                background-color:lightpink;
+            }
+            .form{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-gap:5px;
+            }
+            button{
+                grid-column: span 2;
+            }
+        </style>
+        </head>
+        <body>
+            <nav>
+
+            </nav>
+            <div class="temp">
+            <form class="form">
+                <label for="name">Name</label>
+                <input type="text"id="name"name="name">
+                <label for="email">Email</label>
+                <input type="text"id="email"name="email">
+                <label for="phone">Phone</label>
+                <input type="text"id="phone"placeholder="phone">
+                <label for="gender">Gender</label>
+                <input>
+                <input type="radio"id="male"name="gender"value="Male">Male</button>
+                <input type="radio"id ="female"name="gender"value="Female">Female</button>
+                <button type="submit"value="Submit">Submit</button>
+                </input>
+                </form>
+                </div>
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text"id="n"name="n"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text"id="e"name="e"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="text"id="p"name="p"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><input type="Submit"value="Submit"></td>
+                    </tr>
+                </table>
+            </body>
+            </html>
