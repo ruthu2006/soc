@@ -14,3 +14,15 @@ function F1(){
     </BrowserRouter>);
 }
 export default F1
+// About
+export default function About(){
+    return<h1>About page</h1>
+}
+//Contact
+export default function Contact(){
+    return<h1>Contact page</h1>
+}
+//Home
+export default function Home(){
+    return<h1>Home page</h1>
+}
